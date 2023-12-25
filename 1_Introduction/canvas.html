@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Canvas</title>
+        
+        <script src="https://cdn.jsdelivr.net/npm/fabric"></script>
+    </head>
+    <body >
+        <header>
+            <h1>
+                This is an example
+            </h1>
+        </header>
+        <section >
+            <canvas id="c" width="500" height="500" style="border:1px solid #000000;" >
+
+            </canvas>
+            
+        </section>
+        <div>
+            <button onclick="draw()">
+                Try Canvas Option
+            </button>
+        </div>
+        <section id="canvasSection" >
+            <canvas id="canvas" width="500" height="500" style="border:1px solid #000000;" >
+
+            </canvas>
+        </section>
+        <div>
+            <button onclick="freeDrawChange()">
+                FreeDraw
+            </button>
+            <button onclick="setFigure('square')">
+                Draw square
+            </button>
+            <button onclick="setFigure('circle')">
+                Draw circle
+            </button>
+            <button onclick="setFigure('triangle')">
+                Draw triangle
+            </button>
+
+        </div>
+        
+        
+        <script type="text/javascript" src="./canvas.js"></script>
+        
+    </body>
+</html>
