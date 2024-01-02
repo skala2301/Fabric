@@ -5,6 +5,8 @@ canvas.setHeight(image.height*1.5);
 
 canvas.add(image);
 
-
+function setFilter(){
+    
+}
 
 
